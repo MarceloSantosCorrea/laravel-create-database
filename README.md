@@ -4,7 +4,7 @@ Require the `marcelo-correa/laravel-logs` package in your `composer.json` and up
 ```sh
 $ composer require marcelo-correa/laravel-create-database
 ```
-## Installation
+## Create Database
 ```sh
 $ php artisan make:database
 ```
