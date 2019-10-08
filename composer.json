@@ -1,0 +1,29 @@
+{
+    "name": "marcelo-correa/laravel-create-database",
+    "description": "Create a new Database with Laravel Command",
+    "type": "library",
+    "require": {
+        "php": ">=7",
+        "illuminate/support": "^5.5|^6",
+        "illuminate/console": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcelo Corrêa",
+            "email": "marcelocorrea229@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarceloCorrea\\LaravelCreateDatabase\\CreateDatabaseServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "MarceloCorrea\\LaravelCreateDatabase\\": "src/"
+        }
+    }
+}
