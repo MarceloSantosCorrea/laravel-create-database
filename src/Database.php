@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace MarceloCorrea\LaravelCreateDatabase;
 
 use Illuminate\Console\Command;
 
