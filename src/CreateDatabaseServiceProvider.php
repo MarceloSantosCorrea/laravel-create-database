@@ -11,7 +11,7 @@ class CreateDatabaseServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function register()
     {
         $this->commands([
             Database::class,
