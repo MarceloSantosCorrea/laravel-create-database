@@ -1,7 +1,8 @@
 <?php
 
-namespace MarceloCorrea\LaravelCreateDatabase;
+namespace CreateDatabase\Providers;
 
+use CreateDatabase\Console\Commands\Database;
 use Illuminate\Support\ServiceProvider;
 
 class CreateDatabaseServiceProvider extends ServiceProvider
@@ -13,8 +14,6 @@ class CreateDatabaseServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->commands([
-            Database::class,
-        ]);
+        $this->commands([Database::class]);
     }
 }
